@@ -33,7 +33,7 @@ namespace Dev4you
 
             app.UseExceptionHandler("/error.html");
 
-            if (env.IsDevelopment())
+            if (configuration["EnableDeveloperExceptions"]=="True")
             {
                 app.UseDeveloperExceptionPage();
             }
