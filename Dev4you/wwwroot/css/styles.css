@@ -1,0 +1,216 @@
+/* My Style Sheet
+   ========================================================================== */
+
+/* Global CSS
+   ========================================================================== */
+
+body
+{
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1
+{
+  color: #196862;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2
+{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3
+{
+  color: #196862;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p
+{
+  line-height: 2;
+}
+
+hr
+{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+a
+{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #EAF6F6;
+}
+
+section
+{
+  display: block;
+  padding-top: 1em;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6
+{
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.h2
+{
+  font-size: 2rem;
+  position: relative;
+  text-align: center;
+}
+/* Containers
+   ========================================================================== */
+
+.top-container
+{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 6rem;
+  max-width: 100%;
+}
+
+.bottom-container
+{
+  background-color: #66BFBF;
+  padding: 25px 50px 25px 50px;
+  max-width: 100%;
+}
+
+.top-container-resume
+{
+  background-color: #17a2b8;
+  position: relative;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  max-width: 100%;
+}
+.container-fluid{
+  max-width: 100%;
+}
+
+
+/* Carousel
+   ========================================================================== */
+.carousel-control-next-icon
+{
+  background-color: #66BFBF;
+}
+
+.carousel-control-prev-icon
+{
+  background-color: #66BFBF;
+}
+
+.carousel-item
+{
+  height: 100%;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/* Forms
+   ========================================================================== */
+.form-group {
+  margin-bottom: 2rem;
+}
+
+/* Images
+   ========================================================================== */
+.bottom-cloud
+{
+  position: relative;
+  margin-left: 1rem;
+}
+
+.top-cloud
+{
+  margin-left: 65%;
+  position: relative;
+}
+
+.mountain
+{
+  position: relative;
+}
+
+/* Footer
+   ========================================================================== */
+.copyright
+{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 30px 10px;
+}
+
+/* Buttons
+========================================================================== */
+.btn
+{
+  position: relative;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8em;
+  -moz-border-radius: 8em;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover
+{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* Rows
+========================================================================== */
+.profile-row
+{
+  margin: 5rem auto 5rem auto;
+}
+
+.pro
+{
+  text-decoration: underline;
+  color: black;
+}
+
+.row
+{
+  margin-right: .25rem;
+  margin-left: .25rem;
+  margin-bottom: 2.25rem;
+}
+
+
